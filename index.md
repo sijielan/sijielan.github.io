@@ -1,6 +1,7 @@
 ## ABOUT ME
 ---
-I am a student studying for a Master's degree in Computer Science at Xiamen University and my supervisor is Prof.Suzhen Wu.
+I am a student studying for a Master's degree in Computer Science at Xiamen University and my supervisor is *Prof.Suzhen Wu.*
+
 My research interests cover flash memory and NVM. These researches focus on the structure and error characteristics of storage media to propose methods to improve performance and reliability. Another research direction combines storage media with other storage techniques, such as deduplication system. One ongoing work focuses on the performance and reliability study of 3D flash memory. Our objective is to improve the performance of flash memory by utilizing the characteristics of 3D-NAND memory, such as data allocation,garbage collection, error correction codes, etc.
 
 ## RESEARCH

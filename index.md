@@ -15,7 +15,7 @@ Each cell in NAND flash memory contains kinds of threshold voltages to store cor
 ## RESEARCH PUBLICATION
 ---
 
-Suzhen Wu (Advisor), **Sijie Lan**, Jindong Zhou, Hong Jiang, Zhirong Shen. "BitFlip: A Bit-Flipping Schemefor Reducing Read Latency and Improving Reliability of Flash Memory". (***MSST'20, CCF-B***), 2020.
+Suzhen Wu (Advisor), **Sijie Lan**, Jindong Zhou, Hong Jiang, Zhirong Shen. "*BitFlip: A Bit-Flipping Schemefor Reducing Read Latency and Improving Reliability of Flash Memory*". (***MSST'20, CCF-B***), 2020.
 
 
 ## REFERENCES

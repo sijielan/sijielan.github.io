@@ -8,7 +8,7 @@ My research interests cover flash memory and NVM. These researches focus on the 
 **BitFlip: A Bit-Flipping Scheme for Reducing Read Latency and Improving Reliability of Flash Memory**
 
 
-I created the idea and designed the system.Each cell in NAND flash memory contains kinds of threshold voltages to store corresponding bit information. By analyzing characteristics of different threshold voltages and amounts of files in the real world, the cells' bits information with higher threshold voltages is more likely to leak their electrons to arise bit errors. Based on thisobservation, we proposed a method called BitFlip, which minimizes the number of the state with higher threshold voltage to achieve better performance. 
+Each cell in NAND flash memory contains kinds of threshold voltages to store corresponding bit information. By analyzing characteristics of different threshold voltages and amounts of files in the real world, the cells' bits information with higher threshold voltages is more likely to leak their electrons to arise bit errors. Based on thisobservation, we proposed a method called BitFlip, which minimizes the number of the state with higher states to achieve better performance. 
 
 
 ## RESEARCH PUBLICATION

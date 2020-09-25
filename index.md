@@ -1,6 +1,7 @@
 ## ABOUT ME
 ---
-Curriculum Vitae: ![pdf](https://github.com/sijielan/sijielan.github.io/raw/gh-pages/sijie_CV.pdf)
+Here is my [Curriculum Vitae]{https://github.com/sijielan/sijielan.github.io/raw/gh-pages/sijie_CV.pdf}
+[1]: https://github.com/sijielan/sijielan.github.io/raw/gh-pages/sijie_CV.pdf "Curriculum Vitae"
 
 I am a student studying for a Master's degree in Computer Science at Xiamen University and my supervisor is *Prof. Suzhen Wu.*
 

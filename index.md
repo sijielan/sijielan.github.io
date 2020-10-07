@@ -40,3 +40,7 @@ College of Informatics, Xiamen University
 Email: shenzr@xmu.edu.cn
 
 Homepage: https://shenzr.github.io
+
+
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=KU2ArtVpyPeeyEfOZ5QoUhC9sBp0kDVfPpJAvD2YDkQ"></script>

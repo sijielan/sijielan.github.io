@@ -29,7 +29,7 @@ College of Informatics, Xiamen University
 
 Email: suzhen@xmu.edu.cn
 
-Homepage: [http://astl.xmu.edu.cn](http://astl.xmu.edu.cn)
+Homepage: [https://astl.xmu.edu.cn](https://astl.xmu.edu.cn)
 
 
 

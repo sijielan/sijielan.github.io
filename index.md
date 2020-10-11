@@ -1,6 +1,6 @@
 ## ABOUT ME
 ---
-Here is my [Curriculum Vitae](https://github.com/sijielan/sijielan.github.io/raw/gh-pages/sijie_CV.pdf)
+Here is my [Curriculum Vitae](https://github.com/sijielan/sijielan.github.io/raw/gh-pages/sijie__CV.pdf)
 
 I am a graduate student in Computer Science at Xiamen University and my supervisor is [*Prof. Suzhen Wu.*](https://astl.xmu.edu.cn)
 
@@ -29,7 +29,7 @@ College of Informatics, Xiamen University
 
 Email: suzhen@xmu.edu.cn
 
-Homepage: http://astl.xmu.edu.cn
+Homepage: [http://astl.xmu.edu.cn](http://astl.xmu.edu.cn)
 
 
 
@@ -39,7 +39,7 @@ College of Informatics, Xiamen University
 
 Email: shenzr@xmu.edu.cn
 
-Homepage: https://shenzr.github.io
+Homepage: [https://shenzr.github.io](https://shenzr.github.io)
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=n&d=KU2ArtVpyPeeyEfOZ5QoUhC9sBp0kDVfPpJAvD2YDkQ'></script>

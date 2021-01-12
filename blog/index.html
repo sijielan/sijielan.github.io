@@ -1,53 +1,76 @@
----
-layout: default
-title: Blog
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+  <title>
+    
+      Blog &middot; Sijie Lan's Page
+    
+  </title>
 
-    {% if post.truncated_preview == true or site.blog.truncated_preview and post.truncated_preview != false %}
-      {{ post.excerpt }}
-      <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-  </article>
-  {% endfor %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon.png">
+  
+  <link rel="alternate" type="application/atom+xml" title="Sijie Lan's Page" href="/atom.xml">
+</head>
+
+
+  <body>
+    <nav class="nav-main">
+      <ul>
+        <li class="hvr-underline-reveal"><a href="/about">ABOUT</a></li>
+         <li class="hvr-underline-reveal"><a href="/blog">TO BE UPDATED</a></li>
+       <!-- <li class="logo"><a class="hvr-ripple-out" href="/">C</a></li> -->
+        <!--<li class="hvr-underline-reveal"><a href="/blog/">blog</a></li>-->
+      </ul>
+    </nav>
+
+    <div class="container content">
+      <main>
+        <div class="posts">
+  
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-      <i class="fa fa-arrow-circle-o-left"></i> 
-      <span class="pagination-text">older posts</span>
-    </a>
-  {% else %}
+  
     <span class="pagination-item">
       <i class="fa fa-arrow-circle-o-left"></i> 
       <span class="pagination-text">older posts</span>
     </span>
-  {% endif %}
+  
 
   <!-- <a class="pagination-item" href="#">archive</a> -->
 
-  {% if paginator.previous_page %}
-    <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
-      <span class="pagination-text">newer posts</span> 
-      <i class="fa fa-arrow-circle-o-right"></i>
-    </a>
-  {% else %}
+  
     <span class="pagination-item">
       <span class="pagination-text">newer posts</span> 
       <i class="fa fa-arrow-circle-o-right"></i>
     </span>
-  {% endif %}
+  
 </div>
+
+      </main>
+      
+
+      <footer class="footer">
+        <small>
+            <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="2021-01-12T20:39:35+08:00">2021</time> </span> &middot;
+            <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
+        </small>
+        <div class="ftr-links">
+         <!-- <a href="https://github.com/nicoelayda"><i class="fa fa-github-alt"></i></a> -->
+         <!-- <a href="https://twitter.com/nicoelayda"><i class="fa fa-twitter"></i></a> -->
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>

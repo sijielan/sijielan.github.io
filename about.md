@@ -1,33 +1,22 @@
 ---
 layout: page
-title: 关于我 
+title: About
 ---
 
-一个工作6年的 iOS SDK 开发者，在一家游戏公司做SDK开发和维护。
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-除了iOS技术，我还一直维护着这个博客，懂一些前端的基础知识。
+Celeste is a lightweight Jekyll theme that features a minimalist, content-first design. It places your content center stage and lets your readers view them in a clutter-free environment without visual distractions. It is based on [Poole](https://github.com/poole/poole), the Jekyll butler, by [@mdo](https://twitter.com/mdo).
 
-平时喜欢用python写一些工具，能用工具做的事情坚决不用人工去操作。
+In addition to using Poole as its foundation, Celeste is also built using the following open-source projects:
 
-<h2> 我们的博客 </h2>  
+* [normalize.css](http://necolas.github.io/normalize.css/), a modern, HTML5-ready alternative to CSS resets.
+* [Font Awesome](https://fontawesome.com/v4.7.0/), the iconic font and CSS toolkit.
+* [Hover.css](http://ianlunn.github.io/Hover/), a collection of CSS3 powered hover effects.
 
-这个博客是我们大家的，目前已经有很大一部分人在使用我的博客模板了，我也很高兴大家使用我的模板。
+Celeste is <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by [@nicoelayda](https://github.com/nicoelayda). Learn more and contribute on [GitHub](https://github.com/nicoelayda/celeste).
 
-如果你想搭建一个跟我一样的博客，可以看我的 
-<a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
-教程
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/nicoelayda/celeste/issues/new) or [ask me on Twitter](https://twitter.com/nicoelayda).
 
-
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
-
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
-
-
-<h3> 搭建博客遇到了问题解法方法 </h3>  
-
-查看 [技术支持](https://leopardpan.cn/support/) 需求帮助
-
-博客模板会一直持续更新，请持续关注我，谢谢~
-
-{% include comments.html %}
-
+Thanks for reading!

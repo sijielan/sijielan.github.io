@@ -1,40 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
   <body>
+    <nav class="nav-main">
+      <ul>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/about">ABOUT</a></li>
+         <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/blog">TO BE UPDATED</a></li>
+       <!-- <li class="logo"><a class="hvr-ripple-out" href="{{ site.baseurl }}/">C</a></li> -->
+        <!--<li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/blog/">blog</a></li>-->
+      </ul>
+    </nav>
 
-    <span class="mobile btn-mobile-menu">        
-      <div class="nav_container">
-         <nav class="nav-menu-item" style = "float:right">
-            <i class="nav-menu-item">
-              <a href="/#blog" title="{{site.blog_button.description}}" class="blog-button">  {{site.blog_button.title}}
-              </a>
-            </i>
-            {% for item in site.nav %}
-                <i class="nav-menu-item">
+    <div class="container content">
+      <main>
+        {{ content }}
+      </main>
+      
 
-                  <a href="{{item.url}}" title="{{item.description}}" class="btn-mobile-menu__icon">
-                      {{item.title}}
-                  </a>
-                </i>
-            {% endfor %}
-          </nav>
-      </div>
-    </span>
-    
-    {% include side-panel.html %}
-
-    <div class="content-wrapper">
-        <div class="content-wrapper__inner">
-            {{ content }}
-            {% include footer.html %}
+      <footer class="footer">
+        <small>
+            <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}</span> &middot;
+            <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
+        </small>
+        <div class="ftr-links">
+         <!-- <a href="https://github.com/nicoelayda"><i class="fa fa-github-alt"></i></a> -->
+         <!-- <a href="https://twitter.com/nicoelayda"><i class="fa fa-twitter"></i></a> -->
         </div>
+      </footer>
     </div>
-    
-    {% include external.html %}
-    
-  </body>
 
+  </body>
 </html>

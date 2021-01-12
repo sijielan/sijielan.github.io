@@ -1,6 +1,5 @@
-_site/
-.sass-cache/
-*.DS_Store
-.idea
-*.swp
-.Trashes
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

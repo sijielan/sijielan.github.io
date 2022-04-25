@@ -3,6 +3,7 @@ layout: page
 title: About
 ---
 
+<meta http-equiv="refresh" content="0;url= https://sijielan.github.io/ ">
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>

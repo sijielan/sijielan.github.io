@@ -3,4 +3,4 @@
 #title: Candidacy exam
 ---
 
-Passed the candidacy exam.
+<font color="#dd0000">[New] </font>Passed the candidacy exam!

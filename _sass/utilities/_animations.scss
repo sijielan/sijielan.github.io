@@ -17,6 +17,12 @@
     left: 0;
     right: 0;
     bottom: 0;
+    background: $nav-link-underline-color;
+    height: 2px;
+
+    @include prefix(transform, translateY(4px));
+    @include prefix(transition-property, transform);
+    @include prefix(transition-duration, 0.2s);
     @include prefix(transition-timing-function, ease-out);
   }
 
